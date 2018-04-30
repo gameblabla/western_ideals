@@ -1,0 +1,287 @@
+{
+  "name": "Western Ideals",
+  "author": "gameblabla",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Western Ideals",
+    "uuid": "fb9bfbb1-4294-4174-a611-16a7f5bb56fa",
+    "sdkVersion": "3",
+    "enableMultiJS": false,
+    "targetPlatforms": [
+		"basalt",
+		"diorite",
+		"aplite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+        "media": 
+        [
+			{
+			  "type": "png",
+			  "name": "IMAGE_BAKURA",
+			  "file": "images/bakura_still.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_TITLESCREEN",
+			  "file": "images/titlescreen.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_BLACK",
+			  "file": "images/black_screen.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_TIRED",
+			  "file": "images/bakura_tired.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_CLOSING",
+			  "file": "images/closing.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_MIDCLOSE",
+			  "file": "images/mid_close.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_EVIL",
+			  "file": "images/bakura_evil.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_BLOOD",
+			  "file": "images/blood.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_HELL",
+			  "file": "images/hell.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_WORLDMAP",
+			  "file": "images/worldmap.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_USMEXI_1",
+			  "file": "images/mexico_wall_2.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_USMEXI_2",
+			  "file": "images/mexico_wall_3.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_USMEXI_3",
+			  "file": "images/mexico_wall_4.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			
+			
+			
+			{
+			  "type": "png",
+			  "name": "IMAGE_B1",
+			  "file": "images/border2.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_B2",
+			  "file": "images/border3.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_B3",
+			  "file": "images/border4.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_B4",
+			  "file": "images/border5.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_B5",
+			  "file": "images/border6.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			
+			{
+			  "type": "png",
+			  "name": "IMAGE_B6",
+			  "file": "images/border7.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_B7",
+			  "file": "images/border8.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			
+			{
+			  "type": "png",
+			  "name": "IMG_MEX1",
+			  "file": "images/mex_1.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_MEX2",
+			  "file": "images/mex_2.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_MEX3",
+			  "file": "images/mex_3.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_MEX4",
+			  "file": "images/mex_4.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMAGE_NSC1",
+			  "file": "images/notscary2.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_GUN1",
+			  "file": "images/gun_1.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_GUN2",
+			  "file": "images/gun_2.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_DESERT",
+			  "file": "images/desert.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_B8",
+			  "file": "images/border9.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_SY1",
+			  "file": "images/syria.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_SY2",
+			  "file": "images/syria2.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_SY3",
+			  "file": "images/explosion.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_END1",
+			  "file": "images/hell_knife.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_BAKAKA_SUR",
+			  "file": "images/bakaka_sur.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_BAKAKA_DICK",
+			  "file": "images/dick1.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			},
+			{
+			  "type": "png",
+			  "name": "IMG_BAKAKA_SUR2",
+			  "file": "images/bakaka_sur_red.png",
+			  "spaceOptimization": "memory",
+			  "memoryFormat": "Smallest"
+			}
+        ]
+    }
+  }
+}
