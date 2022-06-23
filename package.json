@@ -1,13 +1,13 @@
 {
   "name": "Western Ideals",
   "author": "gameblabla",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": ["pebble-app"],
   "private": true,
   "dependencies": {},
   "pebble": {
     "displayName": "Western Ideals",
-    "uuid": "fb9bfbb1-4294-4174-a611-16a7f5bb56fa",
+    "uuid": "119bfbb1-4294-4174-a611-e6a725bb56fa",
     "sdkVersion": "3",
     "enableMultiJS": false,
     "targetPlatforms": [
